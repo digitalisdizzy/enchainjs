@@ -1,7 +1,7 @@
 /**
  * @callback Link
  * @param {any} data
- * @param {Chain} chain
+ * @param {Object} store
  * @returns {any}
  */
 
@@ -24,7 +24,7 @@ class Chain {
         this.store = store || {}
         try {
             this.links.forEach(link => {
-                data = link(data, this)
+                data = link(data, this.store)
             });
         } catch(e){
             reject(e)

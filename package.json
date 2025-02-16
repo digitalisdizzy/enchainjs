@@ -1,0 +1,19 @@
+{
+  "name": "enchainjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalisdizzy/enchainjs.git"
+  },
+  "author": "digitalisdizzy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/digitalisdizzy/enchainjs/issues"
+  },
+  "homepage": "https://github.com/digitalisdizzy/enchainjs#readme"
+}
